@@ -15,6 +15,7 @@ const LoginForm = () => {
   
 
   return (
+    <div className='form-container'>
     <form style={styles.form} onSubmit={handleSubmit}> 
       <h1    // inline styling
         style={{color: 'gold', fontSize: '50px', marginBottom: '30px', textAlign: 'center',}}>Login</h1> 
@@ -41,6 +42,7 @@ const LoginForm = () => {
       <button 
         style={{fontSize: '20px', backgroundColor: 'black', padding: '12px', borderRadius: '30px', cursor: 'pointer', textAlign: 'center', marginTop: '70px', color: 'gold', border: 'none'}}>Create account</button>
     </form>
+   </div>
   );
 };
 
