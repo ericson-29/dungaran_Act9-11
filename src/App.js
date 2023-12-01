@@ -15,7 +15,7 @@ const LoginForm = () => {
   
 
   return (
-    <form className="form-container" style={styles.form} onSubmit={handleSubmit}> 
+    <form className="form-container-fluid" style={styles.form} onSubmit={handleSubmit}> 
       <h1    // inline styling
         style={{color: 'gold', fontSize: '50px', marginBottom: '30px', textAlign: 'center',}}>Login</h1> 
       <input
